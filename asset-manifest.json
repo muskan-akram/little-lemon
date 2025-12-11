@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/little-lemon-react/static/css/main.15e09dd3.css",
-    "main.js": "/little-lemon-react/static/js/main.e4848ab4.js",
-    "index.html": "/little-lemon-react/index.html",
-    "main.15e09dd3.css.map": "/little-lemon-react/static/css/main.15e09dd3.css.map",
-    "main.e4848ab4.js.map": "/little-lemon-react/static/js/main.e4848ab4.js.map"
+    "main.css": "/little-lemon/static/css/main.15e09dd3.css",
+    "main.js": "/little-lemon/static/js/main.e4848ab4.js",
+    "index.html": "/little-lemon/index.html",
+    "main.15e09dd3.css.map": "/little-lemon/static/css/main.15e09dd3.css.map",
+    "main.e4848ab4.js.map": "/little-lemon/static/js/main.e4848ab4.js.map"
   },
   "entrypoints": [
     "static/css/main.15e09dd3.css",
