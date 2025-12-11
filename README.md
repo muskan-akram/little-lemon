@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# 🍋 Little Lemon React Capstone Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**A modern, accessible table reservation system built with React.**
 
-## Available Scripts
+[![License: Educational](https://img.shields.io/badge/License-Educational-blue.svg)](https://opensource.org/licenses/MIT)
+[![Technology: React](https://img.shields.io/badge/Technology-React-61DAFB?logo=react&logoColor=white)](https://reactjs.org/)
+[![Testing: Jest](https://img.shields.io/badge/Testing-Jest-C21325?logo=jest&logoColor=white)](https://jestjs.io/)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📖 Project Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project is a React-based reservation system built as the final capstone for the Coursera Meta Front-End Developer course. It showcases proficiency in React development, including functional components, routing, state management, form validation, and adherence to modern web accessibility standards.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## ✨ Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* **Table Reservation Form:** Robust form with client-side validation, error handling, and simulated API interaction for booking dates/times.
+* **Routing:** Seamless, single-page navigation built with **React Router**.
+* **Accessibility:** Semantic HTML and accessible elements following **WCAG guidelines** to ensure usability for all users.
+* **Responsive Design:** Fully responsive layout optimized for both **desktop and mobile** devices.
+* **Component-Based Architecture:** Reusable and organized components for maintainability and scalability.
+* **Testing:** Comprehensive unit tests using **Jest** and **React Testing Library**.
+* **Clean Structure:** Intuitive folder structure for easier development and maintenance.
+* **Peer Review Ready:** Complete GitHub repository for course-mandated peer review.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+##  Getting Started
 
-### `npm run eject`
+To get a copy of the project up and running locally, follow these steps.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Prerequisites
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Node.js (LTS recommended)
+* npm or yarn
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1.  Clone the repository:
+    ```bash
+    git clone [Your Repository URL Here]
+    cd little-lemon-react-capstone
+    ```
 
-## Learn More
+2.  Install dependencies:
+    ```bash
+    npm install
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3.  Start the development server:
+    ```bash
+    npm start
+    ```
+    The app will automatically open in your browser at: **`http://localhost:3000`**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Running Tests
 
-### Code Splitting
+To execute the test suite:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+      ```bash
+      npm test
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This runs the tests in watch mode, allowing you to see results as you make changes.
